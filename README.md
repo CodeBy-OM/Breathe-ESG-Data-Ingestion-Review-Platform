@@ -7,15 +7,6 @@ A prototype ESG data platform for collecting, normalising, reviewing, and audit-
 ## Quick Start
 
 ```bash
-chmod +x setup_and_run.sh
-./setup_and_run.sh
-```
-
-Then open **http://localhost:3000** and click **"Load sample data"** for any source to see the full workflow.
-
-Or run manually:
-
-```bash
 # Backend
 cd backend
 python3 -m venv venv && source venv/bin/activate
@@ -62,21 +53,6 @@ backend/
 └── audit/               AuditTrail model, read-only view
 ```
 
-**Key API endpoints:**
-
-| Method | Endpoint | Description |
-|--------|----------|-------------|
-| POST | `/api/imports/` | Upload + process file (multipart) |
-| GET | `/api/imports/` | List all import jobs |
-| GET | `/api/records/?review_status=pending` | Filter records |
-| POST | `/api/records/{id}/approve/` | Approve single record |
-| POST | `/api/records/{id}/reject/` | Reject with notes |
-| POST | `/api/records/{id}/flag/` | Flag for analyst review |
-| POST | `/api/records/bulk_approve/` | Approve list of IDs |
-| POST | `/api/records/lock_approved/` | Lock all approved for audit |
-| POST | `/api/generate-sample/` | Load demo data |
-| GET | `/api/dashboard/stats/` | Summary statistics |
-
 ### Frontend (React)
 
 ```
@@ -89,8 +65,6 @@ frontend/src/
     ├── ReviewPage.js    Filterable table, modal detail, bulk approve
     └── AuditPage.js     Lock workflow, emissions summary table
 ```
-
----
 
 ## Data Modelling Decisions
 
@@ -172,18 +146,3 @@ When flight distance is missing (common in Concur exports), the normalizer uses 
 - **Multi-currency**: USD, EUR, INR, SGD → approximate GBP conversion
 - **Missing traveler name**: Allowed, not flagged
 - **Unknown categories**: Set to `other` with CO₂e = 0 and warning
-
----
-
-## What Would Come Next (Production)
-
-1. **Celery + Redis** for async file processing (large SAP files)
-2. **JWT authentication** replacing session auth
-3. **Row-level edit** — analysts correct values before approval
-4. **PDF bill parser** for utility invoices (pdfplumber)
-5. **SAP OData/BAPI integration** — direct API pull instead of CSV
-6. **Duplicate detection** — fuzzy match on date+quantity+location
-7. **Emission factor versioning** — DEFRA updates annually
-8. **GHG inventory report export** — PDF/Excel for auditors
-9. **Webhook notifications** — alert analysts when suspicious records arrive
-10. **RBAC** — auditors get read-only, analysts can approve, admins can lock
