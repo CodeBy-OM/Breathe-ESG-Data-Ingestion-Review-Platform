@@ -1,0 +1,16 @@
+Buchungsdatum,Werk,Material,Bezeichnung,Menge,Mengeneinheit,Betrag,Waehrung,Lieferant,Kostenstelle
+01.01.2024,DE01,DIES-001,Diesel Kraftstoff,1200,L,1560.00,EUR,BP Deutschland GmbH,4100
+15.01.2024,DE01,DIES-001,Diesel Kraftstoff,980,L,1274.00,EUR,BP Deutschland GmbH,4100
+20.01.2024,UK_PLANT_03,DIESEL,Diesel fuel,300,GAL,1890.00,GBP,Shell UK Ltd,5200
+31.01.2024,DE02,PETR-001,Benzin / Petrol,450,L,693.00,EUR,Total Energies,4200
+05.02.2024,DE01,DIES-001,Diesel Kraftstoff,1100,L,1430.00,EUR,BP Deutschland GmbH,4100
+10.02.2024,PLANT-GB01,DIESEL,Diesel fuel,0,,800.00,GBP,Shell UK Ltd,5200
+14.02.2024,DE01,DIES-001,Diesel Kraftstoff,-200,L,-260.00,EUR,BP Deutschland GmbH,4100
+28.02.2024,UK_PLANT_03,PETROL,Petrol / unleaded,180,GAL,1134.00,GBP,Shell UK Ltd,5200
+01.03.2024,DE03,LPG-001,Fluessiggas LPG,800,L,640.00,EUR,Linde Gas AG,4300
+15.03.2024,DE01,CHEM-001,Reinigungsmittel,50,KG,375.00,EUR,BASF SE,7100
+20.03.2024,UK_PLANT_03,DIES-001,Diesel fuel,950,L,1235.00,GBP,Shell UK Ltd,5200
+25.03.2024,DE01,DIES-001,Diesel Kraftstoff,99999,L,129999.00,EUR,Unknown Vendor,4100
+31.03.2024,DE02,PACK-001,Verpackungsmaterial,200,KG,800.00,EUR,Smurfit Kappa,7200
+05.04.2024,DE01,DIES-001,Diesel Kraftstoff,1050,L,1365.00,EUR,BP Deutschland GmbH,4100
+10.04.2024,UK_PLANT_03,DIESEL,Diesel fuel,420,L,546.00,GBP,Shell UK Ltd,5200

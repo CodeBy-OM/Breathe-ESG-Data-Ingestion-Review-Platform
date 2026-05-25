@@ -1,0 +1,11 @@
+Site,MPAN,Period Start,Period End,Consumption (kWh),Read Type,Unit Rate (p/kWh),Standing Charge (p/day),Total Cost (GBP),Tariff
+London HQ,1200051234567,01/01/2024,31/01/2024,45230,Actual,28.5,45.2,13047.90,Business Smart Flex
+London HQ,1200051234567,01/02/2024,29/02/2024,42100,Actual,28.5,45.2,12161.25,Business Smart Flex
+Manchester Office,1300087654321,01/01/2024,31/01/2024,18650,Estimated,27.8,38.5,5253.95,Fixed Rate Business
+Manchester Office,1300087654321,01/02/2024,29/02/2024,19200,Actual,27.8,38.5,5404.60,Fixed Rate Business
+Birmingham Warehouse,1400099887766,01/01/2024,31/01/2024,67800,Actual,26.9,52.0,18372.80,HalfHourly Flex
+Birmingham Warehouse,1400099887766,01/02/2024,29/02/2024,71200,Actual,26.9,52.0,19280.80,HalfHourly Flex
+Edinburgh Branch,1500044332211,01/01/2024,31/01/2024,8900,Actual,29.1,42.0,2621.40,SME Fixed
+Edinburgh Branch,1500044332211,01/02/2024,29/02/2024,0,Estimated,29.1,42.0,0.00,SME Fixed
+Bristol Depot,1600055443322,01/01/2024,31/01/2024,23400,Actual,27.5,40.0,6493.00,Variable Business
+Leeds Factory,1700066554433,01/01/2024,31/01/2024,95000,Actual,25.8,65.0,24771.50,Industrial Flex

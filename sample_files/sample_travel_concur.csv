@@ -1,0 +1,18 @@
+Transaction Date,Category,Origin,Destination,Distance (km),Class,Supplier,Nights,Amount,Currency,Traveler,Department
+2024-01-08,Flight,LHR,JFK,,Economy,British Airways,0,850.00,GBP,Sarah Johnson,Sales
+2024-01-08,Hotel,,New York,,,,3,420.00,USD,Sarah Johnson,Sales
+2024-01-10,Flight,JFK,LHR,,Economy,British Airways,0,920.00,GBP,Sarah Johnson,Sales
+2024-01-15,Flight,LHR,CDG,,Business Class,Air France,0,1200.00,GBP,Marcus Chen,Executive
+2024-01-15,Hotel,,Paris,,,,2,380.00,EUR,Marcus Chen,Executive
+2024-01-17,Flight,CDG,LHR,,Business Class,Air France,0,1100.00,GBP,Marcus Chen,Executive
+2024-01-22,Taxi,,,45,,,0,85.00,GBP,James Wilson,IT
+2024-01-25,Flight,MAN,LHR,,Economy,EasyJet,0,120.00,GBP,Lisa Park,Finance
+2024-02-05,Flight,LHR,DXB,,Economy,Emirates,0,680.00,GBP,Ahmed Hassan,Operations
+2024-02-05,Hotel,,Dubai,,,,4,720.00,USD,Ahmed Hassan,Operations
+2024-02-09,Flight,DXB,LHR,,Economy,Emirates,0,650.00,GBP,Ahmed Hassan,Operations
+2024-02-12,Flight,LHR,BOM,,Economy,British Airways,0,750.00,GBP,Priya Sharma,Technology
+2024-02-19,Flight,BOM,LHR,,Economy,British Airways,0,780.00,GBP,Priya Sharma,Technology
+2024-02-25,Flight,LHR,SIN,,Business Class,Singapore Airlines,0,3200.00,GBP,CEO Office,Executive
+2024-03-01,Flight,LHR,FRA,,Economy,Lufthansa,0,280.00,GBP,Anna Mueller,Finance
+2024-03-02,Hotel,,Frankfurt,,,,1,195.00,EUR,Anna Mueller,Finance
+2024-03-03,Flight,FRA,LHR,,Economy,Lufthansa,0,310.00,GBP,Anna Mueller,Finance
